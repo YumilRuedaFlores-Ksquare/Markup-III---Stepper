@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKUP III - STEPPER</title>
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="cabin">
+                <div id="icon-1" class="icon">
+                    1
+                </div>
+
+                <span id="text-1">Cabin</span>
+
+                <div id="dot_1"  class="dots">
+                    <span>······</span>
+                </div>
+                
+
+            </div>
+            <div class="meals">
+                <div id="icon-2" class="icon">
+                    2
+                </div>
+                <span>Meal</span>
+                <div id="dot_2"  class="dots">
+                    <span>······</span>
+                </div>
+
+            </div>
+            <div class="upgrades">
+                <div id="icon-3" class="icon">
+                    3
+                </div>
+                <span>Upgrades</span>
+                <div id="dot_3"  class="dots">
+                    <span>······</span>
+                </div>
+
+            </div>
+            <div class="payment">
+                <div id="icon-4" class="icon">
+                    4
+                </div>
+                <span>Payment</span>
+            </div>
+        </div> 
+        <div class="container-survey">
+            <div id="item_Cabin">
+                Cabin
+            </div>
+            <div id="item_Meals">
+                <h3 style="font-weight: 500;"> Meals Preferences</h3>
+                <p class="sub-text"> Your flight comes with breakfast, lunch and dinner. Please make
+                    your selections below.
+                    <br>
+                    Changes to your order can be made up to 48 hours before your flight.
+                </p>
+
+                <div class="survey">
+                    <div class="left">
+                        <form>
+                            <label for="breakfast">Breakfast</label> <br/>
+                            <select id="breakfast" name="so">
+                                <option value="" >- Select an option -</option>
+                                <option value="SESB"  selected="selected">Sausage Egg Scramble Bowl</option>
+                            </select>
+                        </form>
+                        <form>
+                            <label for="launch">Launch</label> <br/>
+                            <select id="launch" name="so">
+                                <option value="">- Select an option -</option>
+                                <option value="CSM"  selected="selected">Club Sandwich Meal</option>
+                            </select>
+                        </form>
+                        <form>
+                            <label for="launch">Dinner</label> <br/>
+                            <select id="launch" name="so">
+                                <option value="">- Select an option -</option>
+                                <option value="CSM"  selected="selected">Wagyu Beef Sliders Meal</option>
+                            </select>
+                        </form>
+                        <form>
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"> I'd like dessert, too! </label>
+
+                          </form>
+
+                    </div>
+                    <div class="right">
+                        <form>
+                            <label for="breakfast">Drink</label> <br/>
+                            <select id="breakfast" name="so">
+                                <option value="" >- Select an option -</option>
+                                <option value="SESB"  selected="selected">Coffe</option>
+                                <option value="CSM"  >Red Wine</option>
+                                <option value="CSM"  >Cranberry</option>
+
+
+                            </select>
+                        </form>
+                        <form>
+                            <label for="launch">Launch</label> <br/>
+                            <select id="launch" name="so">
+                                <option value="">- Select an option -</option>
+                                <option value="CSM"  selected="selected">Cranberry</option>
+                                <option value="SESB" >Coffe</option>
+                                <option value="CSM"  >Red Wine</option>
+
+                            </select>
+                        </form>
+                        <form>
+                            <label for="launch">Dinner</label> <br/>
+                            <select id="launch" name="so">
+                                <option value="">- Select an option -</option>
+                                <option value="CSM"  selected="selected">Red Wine</option>
+                                <option value="SESB" >Coffe</option>
+                                <option value="CSM"  >Cranberry</option>
+
+                            </select>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="item_Upgrades">
+                Upgrades
+            </div>
+            <div id="item_Payment">
+                Payment
+            </div>
+        </div>
+
+        <div class="sub">
+            <button id="back"> Back</button>
+            <button id="next"> Next</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>

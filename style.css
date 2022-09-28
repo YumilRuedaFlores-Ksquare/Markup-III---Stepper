@@ -1,0 +1,145 @@
+body{
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 550px;
+    justify-content: space-between;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    gap: 10px;
+    margin: 15px;
+    background-color: rgba(128, 128, 128, 0.216);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.head span{
+    margin-left: 10px;
+}
+
+.head div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dots{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: large;
+    color: gray;
+}
+
+#text-1{
+    color: #14b8a6;
+}
+
+#dot_1{
+    color: #14b8a6;
+}
+
+.icon{
+    color: #4f46e5; background-color: white; font-size: 20px;border-radius:100%; width: 25px; height: 25px; display: flex; justify-content: center;
+}
+
+#icon-1{
+    color: white;
+    background-color: #14b8a6;
+}
+
+#icon-2{
+    color: white;
+    background-color: #4f46e5;
+}
+
+
+.container-survey{
+    margin-left: 20px;
+}
+.sub-text{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.849);
+}
+
+.survey{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 450px;
+}
+select{
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 35px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+}
+label{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+}
+
+/* SURVEY*/
+#item_Cabin{
+    display: none;
+}
+#item_Meals{
+    display:unset;
+}
+#item_Upgrades{
+    display: none;
+}
+#item_Payment{
+    display: none;
+}
+
+
+
+
+/* sub*/
+.sub{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.sub button{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
+}
+
+#next{
+    background-color: #4f46e5;
+    border-radius: 5px;
+    border: hidden;
+}
+
+#back{
+    background-color: white;
+    border-radius: 5px;
+    border: hidden;
+}
